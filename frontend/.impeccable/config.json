@@ -1,0 +1,98 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-19T06:10:27.012Z",
+        "reason": "Claude: disposable decision-round sketch, not shipped UI; real dashboard passes detect"
+      },
+      {
+        "rule": "tight-leading",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-19T06:10:27.097Z",
+        "reason": "Claude: disposable decision-round sketch, not shipped UI; real dashboard passes detect"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-19T06:10:27.182Z",
+        "reason": "Claude: disposable decision-round sketch, not shipped UI; real dashboard passes detect"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-19T06:10:27.272Z",
+        "reason": "Claude: disposable decision-round sketch, not shipped UI; real dashboard passes detect"
+      },
+      {
+        "rule": "tight-leading",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-19T06:10:27.366Z",
+        "reason": "Claude: disposable decision-round sketch, not shipped UI; real dashboard passes detect"
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-19T06:10:27.460Z",
+        "reason": "Claude: disposable decision-round sketch, not shipped UI; real dashboard passes detect"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-19T06:21:45.311Z",
+        "reason": "Claude: disposable decision-round sketch predating DESIGN.md, not shipped UI"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-19T06:21:45.424Z",
+        "reason": "Claude: disposable decision-round sketch predating DESIGN.md, not shipped UI"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/challenger-datamatics.html"
+        ],
+        "createdAt": "2026-10-19T06:21:45.523Z",
+        "reason": "Claude: disposable decision-round sketch predating DESIGN.md, not shipped UI"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/canon.html"
+        ],
+        "createdAt": "2026-10-19T06:21:45.617Z",
+        "reason": "Claude: disposable decision-round sketch predating DESIGN.md, not shipped UI"
+      }
+    ]
+  }
+}

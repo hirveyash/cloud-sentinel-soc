@@ -1,0 +1,30 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Flight Progress Strips</title><style>
+*{box-sizing:border-box;margin:0}
+body{width:1440px;height:900px;overflow:hidden;background:#2a2f33;color:#e9e4d6;font:14px/1.4 "Segoe UI",system-ui,sans-serif}
+.top{height:52px;display:flex;align-items:center;gap:28px;padding:0 28px;background:#22272a;border-bottom:1px solid #3a4146}
+.brand{font-weight:700;letter-spacing:.05em}.nav a{color:#9aa3a8;margin-right:20px}.nav a.on{color:#fff}
+.banner{margin:20px 28px;height:56px;display:flex;align-items:center;gap:14px;padding:0 20px;background:#e9e4d6;color:#22272a;border-left:14px solid #3f7fbf;font-weight:700;font-size:20px}
+.racks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0 28px}
+.rack{background:#e9e4d6;color:#22272a;display:flex;height:96px}
+.rack .edge{width:14px}
+.rack .body{padding:12px 18px;flex:1}.rack h3{font-size:13px;letter-spacing:.1em;color:#5b6166}
+.rack .n{font-size:44px;font-weight:700;line-height:1}
+.board{display:grid;grid-template-columns:repeat(3,1fr) 1.1fr;gap:14px;margin:20px 28px}
+.bay{background:#22272a;border:1px solid #3a4146;height:600px;padding:12px}
+.bay h4{font-size:12px;letter-spacing:.12em;color:#9aa3a8;margin-bottom:10px;display:flex;justify-content:space-between}
+.slot{height:46px;border:1px dashed #3f474c;margin-bottom:8px}
+.note{color:#a3abb0;font-size:13px;margin-top:14px}
+</style></head><body>
+<div class="top"><div class="brand">CLOUD SENTINEL v2.0</div><div class="nav"><a class="on">Board</a><a>Incidents</a><a>Events</a><a>Audit log</a></div></div>
+<div class="banner">● All systems operational <span style="font-weight:400;font-size:14px;color:#5b6166">No strips awaiting a decision</span></div>
+<div class="racks">
+<div class="rack"><div class="edge" style="background:#d98a1f"></div><div class="body"><h3>AWS SECURITY HUB</h3><div class="n">0</div></div></div>
+<div class="rack"><div class="edge" style="background:#3f7fbf"></div><div class="body"><h3>GCP SECURITY COMMAND CENTER</h3><div class="n">0</div></div></div>
+<div class="rack"><div class="edge" style="background:#6b5fb5"></div><div class="body"><h3>AZURE DEFENDER FOR CLOUD</h3><div class="n">0</div></div></div>
+</div>
+<div class="board">
+<div class="bay"><h4>NEW <span>0</span></h4><div class="slot"></div><div class="slot"></div><div class="slot"></div><p class="note">Incoming incidents rack here.</p></div>
+<div class="bay"><h4>INVESTIGATING <span>0</span></h4><div class="slot"></div><div class="slot"></div></div>
+<div class="bay"><h4>KEPT OPEN <span>0</span></h4><div class="slot"></div><div class="slot"></div></div>
+<div class="bay"><h4>SECURITY EVENTS FEED <span>0</span></h4><p class="note">No events received from AWS, GCP or Azure.</p></div>
+</div></body></html>

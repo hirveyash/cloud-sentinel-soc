@@ -1,0 +1,17 @@
+# Secrets and local config (cloud credentials in Phase 6 belong here, never in git)
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T06:21:22.470Z",
+  "title": "Design System: Cloud Sentinel v2.0",
+  "extensions": {
+    "colorMeta": {
+      "sign-yellow": {
+        "role": "primary",
+        "displayName": "Taxiway Sign Yellow",
+        "canonical": "#ffc72c",
+        "oklch": "oklch(85.7% 0.165 86.5)",
+        "tonalRamp": [
+          "oklch(15% 0.165 86.5)",
+          "oklch(25% 0.165 86.5)",
+          "oklch(35% 0.165 86.5)",
+          "oklch(45% 0.165 86.5)",
+          "oklch(58% 0.165 86.5)",
+          "oklch(70% 0.165 86.5)",
+          "oklch(82% 0.165 86.5)",
+          "oklch(95% 0.165 86.5)"
+        ]
+      },
+      "sign-red": {
+        "role": "secondary",
+        "displayName": "Mandatory Red",
+        "canonical": "#c8102e",
+        "oklch": "oklch(53.0% 0.207 22.3)",
+        "tonalRamp": [
+          "oklch(15% 0.200 22.3)",
+          "oklch(25% 0.200 22.3)",
+          "oklch(35% 0.200 22.3)",
+          "oklch(45% 0.200 22.3)",
+          "oklch(58% 0.200 22.3)",
+          "oklch(70% 0.200 22.3)",
+          "oklch(82% 0.200 22.3)",
+          "oklch(95% 0.200 22.3)"
+        ]
+      },
+      "sign-black": {
+        "role": "neutral",
+        "displayName": "Sign Black",
+        "canonical": "#111112",
+        "oklch": "oklch(17.8% 0.002 286.2)",
+        "tonalRamp": [
+          "oklch(15% 0.002 286.2)",
+          "oklch(25% 0.002 286.2)",
+          "oklch(35% 0.002 286.2)",
+          "oklch(45% 0.002 286.2)",
+          "oklch(58% 0.002 286.2)",
+          "oklch(70% 0.002 286.2)",
+          "oklch(82% 0.002 286.2)",
+          "oklch(95% 0.002 286.2)"
+        ]
+      },
+      "sign-white": {
+        "role": "neutral",
+        "displayName": "Sign White",
+        "canonical": "#f4f4f2",
+        "oklch": "oklch(96.7% 0.003 106.4)",
+        "tonalRamp": [
+          "oklch(15% 0.003 106.4)",
+          "oklch(25% 0.003 106.4)",
+          "oklch(35% 0.003 106.4)",
+          "oklch(45% 0.003 106.4)",
+          "oklch(58% 0.003 106.4)",
+          "oklch(70% 0.003 106.4)",
+          "oklch(82% 0.003 106.4)",
+          "oklch(95% 0.003 106.4)"
+        ]
+      },
+      "asphalt": {
+        "role": "neutral",
+        "displayName": "Asphalt",
+        "canonical": "#1b1c1e",
+        "oklch": "oklch(22.6% 0.004 264.5)",
+        "tonalRamp": [
+          "oklch(15% 0.004 264.5)",
+          "oklch(25% 0.004 264.5)",
+          "oklch(35% 0.004 264.5)",
+          "oklch(45% 0.004 264.5)",
+          "oklch(58% 0.004 264.5)",
+          "oklch(70% 0.004 264.5)",
+          "oklch(82% 0.004 264.5)",
+          "oklch(95% 0.004 264.5)"
+        ]
+      },
+      "asphalt-raised": {
+        "role": "neutral",
+        "displayName": "Raised Asphalt",
+        "canonical": "#222427",
+        "oklch": "oklch(25.9% 0.006 258.4)",
+        "tonalRamp": [
+          "oklch(15% 0.006 258.4)",
+          "oklch(25% 0.006 258.4)",
+          "oklch(35% 0.006 258.4)",
+          "oklch(45% 0.006 258.4)",
+          "oklch(58% 0.006 258.4)",
+          "oklch(70% 0.006 258.4)",
+          "oklch(82% 0.006 258.4)",
+          "oklch(95% 0.006 258.4)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "#34363a",
+        "oklch": "oklch(33.2% 0.008 264.5)",
+        "tonalRamp": [
+          "oklch(15% 0.008 264.5)",
+          "oklch(25% 0.008 264.5)",
+          "oklch(35% 0.008 264.5)",
+          "oklch(45% 0.008 264.5)",
+          "oklch(58% 0.008 264.5)",
+          "oklch(70% 0.008 264.5)",
+          "oklch(82% 0.008 264.5)",
+          "oklch(95% 0.008 264.5)"
+        ]
+      },
+      "rule-soft": {
+        "role": "neutral",
+        "displayName": "Soft Rule",
+        "canonical": "#2a2c2f",
+        "oklch": "oklch(29.2% 0.006 258.4)",
+        "tonalRamp": [
+          "oklch(15% 0.006 258.4)",
+          "oklch(25% 0.006 258.4)",
+          "oklch(35% 0.006 258.4)",
+          "oklch(45% 0.006 258.4)",
+          "oklch(58% 0.006 258.4)",
+          "oklch(70% 0.006 258.4)",
+          "oklch(82% 0.006 258.4)",
+          "oklch(95% 0.006 258.4)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#e7e7e4",
+        "oklch": "oklch(92.7% 0.004 106.5)",
+        "tonalRamp": [
+          "oklch(15% 0.004 106.5)",
+          "oklch(25% 0.004 106.5)",
+          "oklch(35% 0.004 106.5)",
+          "oklch(45% 0.004 106.5)",
+          "oklch(58% 0.004 106.5)",
+          "oklch(70% 0.004 106.5)",
+          "oklch(82% 0.004 106.5)",
+          "oklch(95% 0.004 106.5)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#a2a4a7",
+        "oklch": "oklch(71.8% 0.005 258.3)",
+        "tonalRamp": [
+          "oklch(15% 0.005 258.3)",
+          "oklch(25% 0.005 258.3)",
+          "oklch(35% 0.005 258.3)",
+          "oklch(45% 0.005 258.3)",
+          "oklch(58% 0.005 258.3)",
+          "oklch(70% 0.005 258.3)",
+          "oklch(82% 0.005 258.3)",
+          "oklch(95% 0.005 258.3)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Location-sign legend only."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Counters on provider cells (3.5rem) and direction signs (clamp 1.75 to 2.5rem); fixed furniture, em dash when unknown."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Panel titles, provider names, empty-state headings, wordmark."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Source names, values, status detail; empty-state explanations at 1rem, 42ch max."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Column headers, definition terms, status tags; uppercase, muted."
+      }
+    },
+    "shadows": [
+      {
+        "name": "nav-active-underline",
+        "value": "inset 0 -2px 0 var(--color-sign-yellow)",
+        "purpose": "Painted 2px underline on the active nav item. Not elevation; the system has no elevation shadows."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-sign",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The single easing curve for sign colour and hover transitions."
+      },
+      {
+        "name": "duration-sign",
+        "value": "200ms",
+        "purpose": "The single timing for state change and hover; zeroed under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ],
+    "markings": [
+      {
+        "name": "hold-line",
+        "value": "18px tall; four 3px sign-yellow stripes at 0, 5, 10, 15px; the lower two dashed 28px on / 16px off",
+        "purpose": "ICAO runway holding-position marking between the sign array and the provider grid."
+      }
+    ],
+    "focus": {
+      "value": "outline: 2px solid var(--color-sign-yellow); outline-offset: 2px",
+      "purpose": "Every focusable element."
+    }
+  },
+  "components": [
+    {
+      "name": "Location Sign",
+      "kind": "custom",
+      "refersTo": "sign-location",
+      "description": "Status panel of the sign array: black face, yellow border and legend.",
+      "html": "<div class=\"ds-plate\"><div class=\"ds-sign-location\" role=\"status\"><p class=\"ds-sign-location-label\">All systems operational</p><p class=\"ds-sign-location-detail\">Backend online · 0 of 3 clouds connected</p></div></div>",
+      "css": ".ds-plate { background: var(--color-sign-black, #111112); padding: 4px; } .ds-sign-location { display: flex; flex-direction: column; justify-content: center; min-height: 96px; padding: 12px 24px; background: var(--color-sign-black, #111112); color: var(--color-sign-yellow, #ffc72c); border: 4px solid var(--color-sign-yellow, #ffc72c); transition: background-color 200ms cubic-bezier(0.16, 1, 0.3, 1), color 200ms cubic-bezier(0.16, 1, 0.3, 1), border-color 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-sign-location-label { margin: 0; font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 700; text-transform: uppercase; line-height: 1; font-size: clamp(1.75rem, 2.2vw, 2.25rem); letter-spacing: 0.03em; } .ds-sign-location-detail { margin: 8px 0 0; font-family: var(--font-sans, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); font-size: 0.875rem; opacity: 0.9; }"
+    },
+    {
+      "name": "Location Sign, Offline",
+      "kind": "custom",
+      "refersTo": "sign-location-offline",
+      "description": "Mandatory red form of the location sign when the backend is unreachable.",
+      "html": "<div class=\"ds-sign-offline\" role=\"status\"><p class=\"ds-sign-offline-label\">Backend unreachable</p><p class=\"ds-sign-offline-detail\">Start the API on port 8000. Retrying every 15 s</p></div>",
+      "css": ".ds-sign-offline { display: flex; flex-direction: column; justify-content: center; min-height: 96px; padding: 12px 24px; background: var(--color-sign-red, #c8102e); color: var(--color-sign-white, #f4f4f2); border: 4px solid var(--color-sign-red, #c8102e); } .ds-sign-offline-label { margin: 0; font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 700; text-transform: uppercase; line-height: 1; font-size: clamp(1.75rem, 2.2vw, 2.25rem); letter-spacing: 0.03em; } .ds-sign-offline-detail { margin: 8px 0 0; font-family: var(--font-sans, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); font-size: 0.875rem; opacity: 0.9; }"
+    },
+    {
+      "name": "Direction Sign",
+      "kind": "custom",
+      "refersTo": "sign-direction",
+      "description": "One per provider in the sign array; yellow face, black legend, count, down arrow. Links to the provider cell.",
+      "html": "<a class=\"ds-sign-dir\" href=\"#provider-aws\"><span class=\"ds-sign-dir-text\"><span class=\"ds-sign-dir-name\">AWS</span><span class=\"ds-sign-dir-count\"><span class=\"ds-sign-dir-num\">0</span><span class=\"ds-sign-dir-unit\">events</span></span></span><span class=\"ds-sign-dir-arrow\"><svg aria-hidden=\"true\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 5v14\"/><path d=\"m19 12-7 7-7-7\"/></svg></span></a>",
+      "css": ".ds-sign-dir { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 96px; padding: 12px 16px; background: var(--color-sign-yellow, #ffc72c); color: var(--color-sign-black, #111112); text-decoration: none; transition: background-color 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-sign-dir:hover { background: var(--color-sign-white, #f4f4f2); } .ds-sign-dir:focus-visible { outline: 2px solid var(--color-sign-yellow, #ffc72c); outline-offset: 2px; } .ds-sign-dir-text { font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 700; text-transform: uppercase; line-height: 1; } .ds-sign-dir-name { display: block; font-size: 1.125rem; letter-spacing: 0.08em; } .ds-sign-dir-count { display: flex; align-items: baseline; gap: 6px; margin-top: 4px; white-space: nowrap; } .ds-sign-dir-num { font-size: clamp(1.75rem, 2.6vw, 2.5rem); font-variant-numeric: tabular-nums; } .ds-sign-dir-unit { font-size: 0.875rem; letter-spacing: 0.08em; } .ds-sign-dir-arrow { display: flex; transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-sign-dir:hover .ds-sign-dir-arrow { transform: translateY(2px); }"
+    },
+    {
+      "name": "Direction Sign, No Data",
+      "kind": "custom",
+      "refersTo": "sign-direction-unknown",
+      "description": "Unlit direction sign when the backend cannot vouch for the count.",
+      "html": "<a class=\"ds-sign-unk\" href=\"#provider-gcp\"><span class=\"ds-sign-unk-text\"><span class=\"ds-sign-unk-name\">GCP</span><span class=\"ds-sign-unk-count\"><span class=\"ds-sign-unk-num\">—</span><span class=\"ds-sign-unk-unit\">no data</span></span></span><svg aria-hidden=\"true\" width=\"28\" height=\"28\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 5v14\"/><path d=\"m19 12-7 7-7-7\"/></svg></a>",
+      "css": ".ds-sign-unk { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 96px; padding: 12px 16px; background: var(--color-asphalt-raised, #222427); color: var(--color-muted, #a2a4a7); text-decoration: none; transition: color 200ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-sign-unk:hover { color: var(--color-ink, #e7e7e4); } .ds-sign-unk:focus-visible { outline: 2px solid var(--color-sign-yellow, #ffc72c); outline-offset: 2px; } .ds-sign-unk-text { font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 700; text-transform: uppercase; line-height: 1; } .ds-sign-unk-name { display: block; font-size: 1.125rem; letter-spacing: 0.08em; } .ds-sign-unk-count { display: flex; align-items: baseline; gap: 6px; margin-top: 4px; } .ds-sign-unk-num { font-size: clamp(1.75rem, 2.6vw, 2.5rem); } .ds-sign-unk-unit { font-size: 0.875rem; letter-spacing: 0.08em; }"
+    },
+    {
+      "name": "HOLD Sign",
+      "kind": "chip",
+      "refersTo": "hold-sign-active",
+      "description": "Mandatory sign beside Live Incidents; filled red only when incidents await clearance, rule-outlined when there is no data.",
+      "html": "<span class=\"ds-hold\">Hold · 2 awaiting clearance</span> <span class=\"ds-hold ds-hold-none\">Hold · no data</span>",
+      "css": ".ds-hold { display: inline-block; padding: 2px 8px; font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 700; text-transform: uppercase; line-height: 1; font-size: 0.875rem; letter-spacing: 0.08em; background: var(--color-sign-red, #c8102e); color: var(--color-sign-white, #f4f4f2); border: 1px solid var(--color-sign-red, #c8102e); } .ds-hold-none { background: transparent; color: var(--color-muted, #a2a4a7); border-color: var(--color-rule, #34363a); }"
+    },
+    {
+      "name": "Hold Line",
+      "kind": "custom",
+      "refersTo": "hold-line",
+      "description": "Holding-position marking: two solid and two dashed yellow stripes, once per screen.",
+      "html": "<div class=\"ds-hold-line\" aria-hidden=\"true\"></div>",
+      "css": ".ds-hold-line { height: 18px; background: linear-gradient(var(--color-sign-yellow, #ffc72c), var(--color-sign-yellow, #ffc72c)) 0 0 / 100% 3px no-repeat, linear-gradient(var(--color-sign-yellow, #ffc72c), var(--color-sign-yellow, #ffc72c)) 0 5px / 100% 3px no-repeat, repeating-linear-gradient(90deg, var(--color-sign-yellow, #ffc72c) 0 28px, transparent 28px 44px) 0 10px / 100% 3px no-repeat, repeating-linear-gradient(90deg, var(--color-sign-yellow, #ffc72c) 0 28px, transparent 28px 44px) 0 15px / 100% 3px no-repeat; }"
+    },
+    {
+      "name": "Status Tag",
+      "kind": "chip",
+      "refersTo": "tag-status",
+      "description": "Outlined muted tag for connection state, e.g. Not connected.",
+      "html": "<span class=\"ds-tag\">Not connected</span>",
+      "css": ".ds-tag { display: inline-block; padding: 2px 8px; border: 1px solid var(--color-rule, #34363a); color: var(--color-muted, #a2a4a7); font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 600; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; }"
+    },
+    {
+      "name": "Provider Cell",
+      "kind": "card",
+      "refersTo": "provider-cell",
+      "description": "Whole-cell module with fixed furniture: name, tag, source, counter, window and last poll.",
+      "html": "<article class=\"ds-cell\"><header class=\"ds-cell-head\"><h2 class=\"ds-cell-name\">AWS</h2><span class=\"ds-cell-tag\">Not connected</span></header><p class=\"ds-cell-src\">Security Hub</p><p class=\"ds-cell-num\">0</p><dl class=\"ds-cell-dl\"><div><dt>Window</dt><dd>Last 24 h</dd></div><div><dt>Last poll</dt><dd>Awaiting first poll</dd></div></dl></article>",
+      "css": ".ds-cell { padding: 16px 20px; border: 1px solid var(--color-rule, #34363a); background: var(--color-asphalt, #1b1c1e); color: var(--color-ink, #e7e7e4); font-family: var(--font-sans, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); } .ds-cell-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; } .ds-cell-name { margin: 0; font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 700; text-transform: uppercase; line-height: 1; font-size: 1.25rem; letter-spacing: 0.06em; } .ds-cell-tag { padding: 2px 8px; border: 1px solid var(--color-rule, #34363a); color: var(--color-muted, #a2a4a7); font-family: var(--font-sign, 'Barlow Condensed', sans-serif); font-weight: 600; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; } .ds-cell-src { margin: 2px 0 0; font-size: 0.875rem; color: var(--color-muted, #a2a4a7); } .ds-cell-num { margin: 12px 0 0; font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 700; text-transform: uppercase; line-height: 1; font-size: 3.5rem; font-variant-numeric: tabular-nums; } .ds-cell-dl { display: flex; gap: 24px; margin: 12px 0 0; font-size: 0.875rem; } .ds-cell-dl dt { font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-muted, #a2a4a7); } .ds-cell-dl dd { margin: 0; }"
+    },
+    {
+      "name": "Data Panel",
+      "kind": "card",
+      "refersTo": "data-panel-header",
+      "description": "Bordered table panel with raised header strip, column headers always visible, and a centred empty state.",
+      "html": "<section class=\"ds-panel\"><header class=\"ds-panel-head\"><h2 class=\"ds-panel-title\">Security events</h2></header><table class=\"ds-panel-table\"><thead><tr><th>Time</th><th>Event</th><th>Provider</th><th>Source</th></tr></thead></table><div class=\"ds-panel-empty\"><p class=\"ds-panel-empty-title\">No events received</p><p class=\"ds-panel-empty-body\">Findings from AWS, GCP and Azure appear here as they are polled.</p></div></section>",
+      "css": ".ds-panel { display: flex; flex-direction: column; border: 1px solid var(--color-rule, #34363a); background: var(--color-asphalt, #1b1c1e); color: var(--color-ink, #e7e7e4); font-family: var(--font-sans, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); } .ds-panel-head { padding: 12px 16px; background: var(--color-asphalt-raised, #222427); border-bottom: 1px solid var(--color-rule, #34363a); } .ds-panel-title { margin: 0; font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 700; text-transform: uppercase; line-height: 1; font-size: 1.125rem; letter-spacing: 0.08em; } .ds-panel-table { width: 100%; border-collapse: collapse; text-align: left; } .ds-panel-table tr { border-bottom: 1px solid var(--color-rule-soft, #2a2c2f); } .ds-panel-table th { padding: 10px 16px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-muted, #a2a4a7); } .ds-panel-empty { padding: 64px 24px; text-align: center; } .ds-panel-empty-title { margin: 0; font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 700; text-transform: uppercase; line-height: 1; font-size: 1.125rem; letter-spacing: 0.06em; } .ds-panel-empty-body { max-width: 42ch; margin: 4px auto 0; color: var(--color-muted, #a2a4a7); }"
+    },
+    {
+      "name": "Top Bar Navigation",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "52px bar: wordmark, uppercase nav with a 2px yellow active underline, last-check time.",
+      "html": "<header class=\"ds-bar\"><p class=\"ds-bar-mark\">Cloud <span class=\"ds-bar-accent\">Sentinel</span><span class=\"ds-bar-ver\">v2.0</span></p><nav class=\"ds-bar-nav\"><a class=\"ds-bar-link\" aria-current=\"page\" href=\"#\">Dashboard</a></nav><p class=\"ds-bar-time\">Checked 02:16:48 EDT</p></header>",
+      "css": ".ds-bar { display: flex; align-items: center; gap: 24px; height: 52px; padding: 0 32px; border-bottom: 1px solid var(--color-rule, #34363a); background: var(--color-asphalt, #1b1c1e); color: var(--color-ink, #e7e7e4); font-family: var(--font-sans, 'Barlow Semi Condensed', 'Arial Narrow', sans-serif); } .ds-bar-mark { margin: 0; font-family: var(--font-sign, 'Barlow Condensed', 'Arial Narrow', sans-serif); font-weight: 700; text-transform: uppercase; line-height: 1; font-size: 1.125rem; letter-spacing: 0.06em; white-space: nowrap; } .ds-bar-accent { color: var(--color-sign-yellow, #ffc72c); } .ds-bar-ver { margin-left: 8px; font-size: 0.875rem; font-weight: 600; color: var(--color-muted, #a2a4a7); } .ds-bar-nav { display: flex; align-self: stretch; } .ds-bar-link { display: flex; align-items: center; color: inherit; text-decoration: none; font-size: 0.875rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; } .ds-bar-link[aria-current=\"page\"] { box-shadow: inset 0 -2px 0 var(--color-sign-yellow, #ffc72c); } .ds-bar-link:focus-visible { outline: 2px solid var(--color-sign-yellow, #ffc72c); outline-offset: 2px; } .ds-bar-time { margin: 0 0 0 auto; font-size: 0.875rem; color: var(--color-muted, #a2a4a7); white-space: nowrap; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Ground Control for Three Clouds",
+    "overview": "Cloud Sentinel is drawn as an airfield seen from the tower: an asphalt-grey ground ruled with 1px lines, flat painted sign panels standing on it, and a yellow holding-position marking that everything behind it must wait at. Each status has its own sign form, the way airfield signage does: black with a yellow border says where you are (system status), yellow with black says which way to go (a provider and its count), and red with white is a mandatory hold (incidents awaiting an analyst's clearance).\n\nThe surface is dense and dim-room friendly. One condensed family in two widths carries everything, all numerals are tabular, and colour is flat and fully saturated only on signs. Everything that is not a sign is asphalt, rule, and quiet grey text, so the signs read first and in under a second. Motion is a single 200ms timing on one easing curve, used only for state change and hover.\n\nThe world rejects the slate-KPI-tile SIEM layout: rounded cards, soft shadows, glow, and a green success pill.",
+    "keyCharacteristics": [
+      "Asphalt ground, 1px rules, square corners everywhere.",
+      "Flat sign panels whose colour pairing encodes their meaning.",
+      "Barlow Condensed for sign faces, Barlow Semi Condensed for reading text, uppercase tracked labels, tabular numerals.",
+      "The ICAO holding-position marking as the boundary between overview and work.",
+      "Honest unknowns: an em dash and \"no data\", never an invented number."
+    ],
+    "rules": [
+      {
+        "name": "The Sign Colour Rule",
+        "body": "Yellow, red, and white appear only as sign faces, sign legends, and painted markings. A colour pairing is a meaning: black/yellow is location, yellow/black is direction, red/white is mandatory. Never use red for anything but a hold or an outage.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lit-Only-When-True Rule",
+        "body": "A sign is lit (full colour) only when the backend vouches for its value. Unknown data drops to raised asphalt with muted text and an em dash.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Family Rule",
+        "body": "Barlow only, condensed or semi-condensed. No second family, no system display face, no monospace.",
+        "section": "typography"
+      },
+      {
+        "name": "The Uppercase Is Paint Rule",
+        "body": "Uppercase with positive tracking is for sign legends, titles, and labels. Sentences (detail lines, empty-state bodies) stay in sentence case.",
+        "section": "typography"
+      },
+      {
+        "name": "The Painted Not Lifted Rule",
+        "body": "Nothing floats. If something needs emphasis, give it a sign colour or a rule, never a shadow.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do encode status by sign form: black/yellow for location, yellow/black for direction, red/white for mandatory hold.",
+      "Do keep every corner square (0px) and every structural line 1px rule; reserve the 4px border for sign panels.",
+      "Do show unknown values as an em dash with muted text and \"no data\"; light a sign only when the backend vouches for it.",
+      "Do keep counters and furniture in place in every state so the layout never shifts between empty, offline, and live.",
+      "Do use the single motion timing (200ms, cubic-bezier(0.16, 1, 0.3, 1)) for colour and hover state only."
+    ],
+    "donts": [
+      "Don't use rounded cards, elevation shadows, glow, or decorative gradients. Gradients are acceptable only as a drawing technique for hard-edged painted markings, as the hold line does.",
+      "Don't introduce a green success colour or pill; \"operational\" is the yellow-on-black location sign.",
+      "Don't use sign-red for anything other than a hold or an outage.",
+      "Don't add a second type family or load fonts or icons from a CDN; Barlow and lucide-react are bundled locally."
+    ]
+  }
+}
